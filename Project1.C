@@ -1,9 +1,27 @@
 #include<stdio.h>
 int main() {
-   int age;
-   printf("Enter Your age haha4\n");
-   scanf("%d",&age);
+   int option;
+   printf("Please select Your Option \n");
+   scanf("%d",&option);
+  switch(option)
+    {
+        case 1:new_accounts();
+        break;
+        case 2:update();
+        break;
+        case 3:transact();
+        break;
+        case 4:see();
+        break;
+        case 5:deleted();
+        break;
+        case 6:view_list();
+        break;
+        case 7:close();
+        break;
+
+    }
   
-   printf("Your Age is %d",age);
+   
    return 0;
 }
