@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>    //header_files
 #include <time.h>
@@ -371,3 +372,32 @@ void divid()
 
 
 
+=======
+#include<stdio.h>
+int main() {
+   int option;
+   printf("Please select Your Option \n");
+   scanf("%d",&option);
+  switch(option)
+    {
+        case 1:new_accounts();
+        break;
+        case 2:update();
+        break;
+        case 3:transact();
+        break;
+        case 4:see();
+        break;
+        case 5:deleted();
+        break;
+        case 6:view_list();
+        break;
+        case 7:close();
+        break;
+
+    }
+  
+   
+   return 0;
+}
+>>>>>>> 53e11a5739792cba41c3745b4d5697f9a5699c3c
